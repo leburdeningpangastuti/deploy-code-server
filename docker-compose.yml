@@ -1,5 +1,9 @@
 services:
   alhamdulillah:
     build: .
+    environment:
+      - TZ=Asia/Jakarta
+      - PASSWORD=fromzerotohero #optional
+      - SUDO_PASSWORD=fromzerotohero #optional
     ports:
       - 8080:8080
