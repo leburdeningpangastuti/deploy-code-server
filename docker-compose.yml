@@ -2,4 +2,4 @@ services:
   alhamdulillah:
     build: .
     ports:
-      - 5000:5000
+      - 8080
