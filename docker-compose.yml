@@ -5,5 +5,9 @@ services:
       - TZ=Asia/Jakarta
       - PASSWORD=fromzerotohero #optional
       - SUDO_PASSWORD=fromzerotohero #optional
+    volumes:
+      - /path/to/appdata/config:/config
     ports:
       - 8080:8080
+    restart: unless-stopped
+    
