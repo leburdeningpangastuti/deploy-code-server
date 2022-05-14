@@ -34,8 +34,6 @@ RUN sudo chown -R coder:coder /home/coder/.local
 
 # -----------
 
-export PASSWORD="fromzerotohero"
-
 # Port
 EXPOSE 8080
 
